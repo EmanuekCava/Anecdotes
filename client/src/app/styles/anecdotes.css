@@ -1,0 +1,188 @@
+
+/* NAVIGATION */
+
+.anecdotes-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.text-navigation-anecdotes {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px 16px;
+    width: 245px;
+    text-align: center;
+    user-select: none;
+}
+.text-navigation-anecdotes:hover {
+    color: #fff;
+    background: #111;
+    outline: 2px solid #fff;
+}
+.text-navigation-anecdotes:active {
+    color: #111;
+    background: #ddf;
+}
+
+/* ANECDOTES */
+
+.container-any-anecdote {
+    text-align: center;
+    padding: 15px;
+}
+.text-any-anecdote {
+    font-size: 28px;
+}
+.button-any-anecdote {
+    color: #fff;
+    background: #0a0;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.button-any-anecdote:hover {
+    background: #0f0;
+}
+.button-any-anecdote:active {
+    background: #0a0;
+}
+.order-anecdotes {
+    margin: 0px 60px;
+    background-color: #eee;    
+}
+.container-anecdotes {
+    background: #eee;
+    padding: 28px 40px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.anecdote {
+    background: #fff;
+    border-radius: 12px;
+    width: 330px;
+    height: 324px;
+    padding: 18px 18px 28px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+.anecdote:hover {
+    outline: 1px solid #ccc;
+    box-shadow: 2px 6px 10px #111;
+}
+.title-anecdote {
+    word-wrap: break-word;
+    font-size: 30px;
+    color: crimson;
+    user-select: none;
+    text-align: center;
+}
+.subtitle-anecdote {
+    word-wrap: break-word;
+    font-size: 22px;
+    text-align: center;
+    user-select: none;
+}
+.history-anecdote {
+    word-wrap: break-word;
+    font-size: 19px;
+    user-select: none;
+}
+.readmore {
+    color: #00a;
+}
+
+/* GET ANECDOTE */
+
+.container-anecdote {
+    margin: 0px 60px;
+    background: #eee;
+    padding: 28px 40px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+.header-get-anecdote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-header-getanecdote {
+    font-size: 26px;
+    cursor: pointer;
+}
+.text-header-getanecdote:hover {
+    text-decoration: underline;
+}
+.more-header-getanecdote {
+    font-size: 26px;
+    cursor: pointer;
+}
+.getanecdote-title {
+    font-size: 54px;
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+}
+.getanecdote-subtitle {
+    font-size: 32px;
+    text-align: center;
+}
+.getanecdote-history {
+    font-size: 24px;
+    text-align: left;
+    background-color: #fff;
+    margin: 10px 0px;
+    padding: 4px 16px;
+    word-wrap: break-word;
+}
+.container-options {
+    position: absolute;
+    left: 90%;
+    top: 140px;
+    background: #fff;
+}
+.option {
+    border: 1px solid #ddd;
+    padding: 8px;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+}
+.option:hover {
+    background: #ddd;
+    border: 1px solid #fff;
+}
+.option:active {
+    background: #ddd;
+    border: 1px solid #ddd;
+}
+
+/* UPDATE */
+
+.container-update-anecdote {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background: #111;
+    position: absolute;
+    padding: 76px 190px;
+    top: 0;
+    left: 0;
+}
+.container-form-update {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+
